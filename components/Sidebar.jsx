@@ -44,7 +44,7 @@ export const Sidebar = ({ showSidebar, setShowSidebar }) => {
           </ul>
         </nav>
       </div>
-      <div>
+      <div className='lg:pb-20'>
         <ul>
           <li>
             <a href='#' className='text-gray-300 text-[0.7rem] hover:underline'>Cookies</a>

@@ -5,10 +5,10 @@ import { RiPlayFill } from 'react-icons/ri'
 
 export const Card = ({ card }) => {
   return (
-    <Link href='#' className='bg-spotify-darkgray p-4 rounded-md flex flex-col items-center lg:items-start justify-center gap-3 hover:bg-spotify-lightgray transition-all relative group'>
+    <Link href='#' className='bg-[#141414] p-4 rounded-md flex flex-col items-center lg:items-start justify-center gap-3 hover:bg-spotify-lightgray transition-all relative group'>
       <div>
         <Image
-          alt='top hits' width='160' height='350' src={card.image}
+          alt='top hits' width='160' height='320' src={card.image}
           className='rounded shadow-lg mx-auto'
         />
       </div>
